@@ -14,12 +14,14 @@ header {
 }
 
 .logo img {
+    padding-inline-end: 70px;
     height: 50px;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
+
 }
 
 nav ul li {
@@ -60,31 +62,34 @@ nav ul li a {
 }
 
 section {
-    padding: 50px 20px;
+    padding: 70px 40px;
     margin: 0 auto;
     max-width: 1200px;
 }
 
 section h2 {
+    text-align: center;
     font-size: 2em;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .contact-form {
     max-width: 600px;
     margin: 0 auto;
     background-color: #1c1c1c;
-    padding: 20px;
+    padding: 40px;
+    padding-left: 20px;
     border-radius: 8px;
 }
 
 .contact-form label {
     display: block;
-    margin: 10px 0 5px;
+    margin: 5px 0 5px;
     color: #ffffff;
 }
 
 .contact-form input,
+
 .contact-form textarea {
     width: 100%;
     padding: 10px;
@@ -115,6 +120,7 @@ section h2 {
 }
 
 .cliente {
+    flex: 1 1 200px;
     text-align: center;
     width: 30%;
     margin-bottom: 20px;
@@ -133,12 +139,15 @@ section h2 {
 
 .team {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
+    
 }
 
 .member {
+    flex: 1 1 200px;
     text-align: center;
-}
+    padding: 20px;}
 
 .member img {
     border-radius: 50%;
