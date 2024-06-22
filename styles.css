@@ -1,0 +1,174 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+header {
+    background-color: #1c1c1c;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.banner {
+    background: url('banner.jpg') no-repeat center center/cover;
+    color: #ffffff;
+    text-align: center;
+    padding: 100px 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.banner h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.banner button {
+    background-color: #ff5722;
+    border: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.banner button:hover {
+    background-color: #e64a19;
+}
+
+section {
+    padding: 50px 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #1c1c1c;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.contact-form label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #ffffff;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #333333;
+    border: 1px solid #555555;
+    color: #ffffff;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    background-color: #4CAF50;
+    border: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #45a049;
+}
+
+.clientes-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cliente {
+    text-align: center;
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.cliente img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    transition: transform 0.3s ease;
+}
+
+.cliente img:hover {
+    transform: scale(1.1);
+}
+
+.team {
+    display: flex;
+    justify-content: space-around;
+}
+
+.member {
+    text-align: center;
+}
+
+.member img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    transition: transform 0.3s ease;
+}
+
+.member img:hover {
+    transform: scale(1.1);
+}
+
+a {
+    color: #ff5722;
+}
+
+a:hover {
+    color: #e64a19;
+}
+
+footer {
+    background-color: #1c1c1c;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
